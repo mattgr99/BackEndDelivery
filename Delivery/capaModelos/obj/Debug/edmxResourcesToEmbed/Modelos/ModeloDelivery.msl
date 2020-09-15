@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DeliveryEntidadesStoreContainer" CdmEntityContainer="DeliveryEntidades1">
+    <EntitySetMapping Name="CAB_FACTURA">
+      <EntityTypeMapping TypeName="DeliveryEntidades.CAB_FACTURA">
+        <MappingFragment StoreEntitySet="CAB_FACTURA">
+          <ScalarProperty Name="id_cfactura" ColumnName="id_cfactura" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+          <ScalarProperty Name="id_estado_pago" ColumnName="id_estado_pago" />
+          <ScalarProperty Name="id_estado_envio" ColumnName="id_estado_envio" />
+          <ScalarProperty Name="ruc_emisor" ColumnName="ruc_emisor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIENTE">
+      <EntityTypeMapping TypeName="DeliveryEntidades.CLIENTE">
+        <MappingFragment StoreEntitySet="CLIENTE">
+          <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+          <ScalarProperty Name="documento" ColumnName="documento" />
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="fecha_nac" ColumnName="fecha_nac" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DETALLE_FACTURA">
+      <EntityTypeMapping TypeName="DeliveryEntidades.DETALLE_FACTURA">
+        <MappingFragment StoreEntitySet="DETALLE_FACTURA">
+          <ScalarProperty Name="id_detalle" ColumnName="id_detalle" />
+          <ScalarProperty Name="id_cFactura" ColumnName="id_cFactura" />
+          <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="subtotal" ColumnName="subtotal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESTADO_ENVIO">
+      <EntityTypeMapping TypeName="DeliveryEntidades.ESTADO_ENVIO">
+        <MappingFragment StoreEntitySet="ESTADO_ENVIO">
+          <ScalarProperty Name="id_eEnvio" ColumnName="id_eEnvio" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESTADO_PAGO">
+      <EntityTypeMapping TypeName="DeliveryEntidades.ESTADO_PAGO">
+        <MappingFragment StoreEntitySet="ESTADO_PAGO">
+          <ScalarProperty Name="id_ePago" ColumnName="id_ePago" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUCTO">
+      <EntityTypeMapping TypeName="DeliveryEntidades.PRODUCTO">
+        <MappingFragment StoreEntitySet="PRODUCTO">
+          <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+          <ScalarProperty Name="id_pcategoria" ColumnName="id_pcategoria" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="stock" ColumnName="stock" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="imageUrl" ColumnName="imageUrl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUCTO_CATEGORIA">
+      <EntityTypeMapping TypeName="DeliveryEntidades.PRODUCTO_CATEGORIA">
+        <MappingFragment StoreEntitySet="PRODUCTO_CATEGORIA">
+          <ScalarProperty Name="id_categoria" ColumnName="id_categoria" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOG_IN">
+      <EntityTypeMapping TypeName="DeliveryEntidades.LOG_IN">
+        <MappingFragment StoreEntitySet="LOG_IN">
+          <ScalarProperty Name="rol" ColumnName="rol" />
+          <ScalarProperty Name="contrasena" ColumnName="contrasena" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="idlogin" ColumnName="idlogin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="rptCantidadProductos11" FunctionName="DeliveryEntidades.Store.rptCantidadProductos1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DeliveryEntidades.rptCantidadProductos11_Result">
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="Producto" ColumnName="Producto" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="rptMontoAgrupadoxCliente" FunctionName="DeliveryEntidades.Store.rptMontoAgrupadoxCliente">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DeliveryEntidades.rptMontoAgrupadoxCliente_Result">
+          <ScalarProperty Name="nombres" ColumnName="nombres" />
+          <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+          <ScalarProperty Name="monto" ColumnName="monto" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="rptVentasCategoriaxMes" FunctionName="DeliveryEntidades.Store.rptVentasCategoriaxMes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DeliveryEntidades.rptVentasCategoriaxMes_Result">
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

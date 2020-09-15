@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DeliveryEntidades1-Web.config Connection String" description="DeliveryEntidades1 Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="metadata=res://*/Modelos.ModeloDelivery.csdl|res://*/Modelos.ModeloDelivery.ssdl|res://*/Modelos.ModeloDelivery.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=SQL5080.site4now.net;Initial Catalog=DB_A66C63_DELIBERYDB;User Id=DB_A66C63_DELIBERYDB_admin;Password=M12345678;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\matgr\\OneDrive\\Documentos\\Certificacion\ I\\BackEnd\ Proyecto\ Final\\Back-MVC-API\\BackEnd\\BackASP\\Delivery\\Delivery\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DeliveryEntidades1']/@connectionString" />
+  </parameter>
+</parameters>

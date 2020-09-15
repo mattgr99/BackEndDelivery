@@ -1,0 +1,323 @@
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\Delivery.dll.config
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\Delivery.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\Delivery.pdb
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csc.exe
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csc.exe.config
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csc.rsp
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csi.exe
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csi.exe.config
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csi.rsp
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.AppContext.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Console.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.IO.Compression.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Net.Http.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Net.Sockets.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.ValueTuple.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Xml.XPath.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\vbc.exe
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\vbc.exe.config
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\vbc.rsp
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\VBCSCompiler.exe
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\Antlr3.Runtime.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\capaModelos.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\Newtonsoft.Json.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Net.Http.Formatting.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Helpers.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.WebHost.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Mvc.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Optimization.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Razor.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.Razor.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\WebGrease.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\EntityFramework.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\capaModelos.pdb
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\capaModelos.dll.config
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\Newtonsoft.Json.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Net.Http.Formatting.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Helpers.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.WebHost.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Mvc.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Optimization.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Razor.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.Razor.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\Antlr3.Runtime.pdb
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\EntityFramework.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Helpers.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Http.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Mvc.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Optimization.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Razor.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.WebPages.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\obj\Debug\Delivery.csprojAssemblyReference.cache
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\obj\Debug\Delivery.csproj.CoreCompileInputs.cache
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\obj\Debug\Delivery.csproj.CopyComplete
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\obj\Debug\Delivery.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\obj\Debug\Delivery.pdb
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Cors.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.Cors.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.Cors.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\EntityFramework.SqlServer.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\Delivery\bin\EntityFramework.SqlServer.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\obj\Debug\Delivery.csprojAssemblyReference.cache
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\obj\Debug\Delivery.csproj.CoreCompileInputs.cache
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Delivery.dll.config
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Delivery.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Delivery.pdb
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csc.exe
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csc.exe.config
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csc.rsp
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csi.exe
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csi.exe.config
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csi.rsp
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.AppContext.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Console.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.IO.Compression.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Net.Http.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Net.Sockets.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.ValueTuple.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Xml.XPath.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\vbc.exe
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\vbc.exe.config
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\vbc.rsp
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\VBCSCompiler.exe
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Antlr3.Runtime.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\capaModelos.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\EntityFramework.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\EntityFramework.SqlServer.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Newtonsoft.Json.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Net.Http.Formatting.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Cors.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Helpers.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.Cors.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.WebHost.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Mvc.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Optimization.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Razor.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.Razor.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\WebGrease.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\capaModelos.pdb
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\capaModelos.dll.config
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\EntityFramework.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\EntityFramework.SqlServer.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.Cors.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Newtonsoft.Json.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Net.Http.Formatting.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Helpers.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.WebHost.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Mvc.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Optimization.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Razor.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.Razor.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Antlr3.Runtime.pdb
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Helpers.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Http.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Mvc.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Optimization.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Razor.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.WebPages.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\obj\Debug\Delivery.csproj.CopyComplete
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\obj\Debug\Delivery.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\obj\Debug\Delivery.pdb
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\obj\Debug\Delivery.csprojAssemblyReference.cache
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\obj\Debug\Delivery.csproj.CoreCompileInputs.cache
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Delivery.dll.config
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Delivery.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Delivery.pdb
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csc.exe
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csc.exe.config
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csc.rsp
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csi.exe
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csi.exe.config
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\csi.rsp
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.AppContext.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Console.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.IO.Compression.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Net.Http.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Net.Sockets.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.ValueTuple.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Xml.XPath.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\vbc.exe
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\vbc.exe.config
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\vbc.rsp
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\VBCSCompiler.exe
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Antlr3.Runtime.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\capaModelos.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\EntityFramework.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\EntityFramework.SqlServer.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Newtonsoft.Json.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Net.Http.Formatting.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Cors.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Helpers.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.Cors.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.WebHost.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Mvc.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Optimization.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Razor.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.Deployment.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.Razor.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\WebGrease.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\capaModelos.pdb
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\capaModelos.dll.config
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\EntityFramework.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\EntityFramework.SqlServer.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.Cors.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Newtonsoft.Json.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Net.Http.Formatting.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Helpers.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Http.WebHost.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Mvc.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Optimization.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.Razor.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.Deployment.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\System.Web.WebPages.Razor.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Antlr3.Runtime.pdb
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Helpers.resources.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Http.resources.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Mvc.resources.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Optimization.resources.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.Razor.resources.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.WebPages.resources.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\obj\Debug\Delivery.csproj.CopyComplete
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\obj\Debug\Delivery.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\Delivery\obj\Debug\Delivery.pdb

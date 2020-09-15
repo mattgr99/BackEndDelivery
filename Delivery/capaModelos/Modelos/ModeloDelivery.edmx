@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DeliveryEntidades.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CAB_FACTURA">
+          <Key>
+            <PropertyRef Name="id_cfactura" />
+          </Key>
+          <Property Name="id_cfactura" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="fecha" Type="date" />
+          <Property Name="id_cliente" Type="int" Nullable="false" />
+          <Property Name="id_estado_pago" Type="int" Nullable="false" />
+          <Property Name="id_estado_envio" Type="int" Nullable="false" />
+          <Property Name="ruc_emisor" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="CLIENTE">
+          <Key>
+            <PropertyRef Name="id_cliente" />
+          </Key>
+          <Property Name="id_cliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="documento" Type="varchar" MaxLength="15" />
+          <Property Name="nombres" Type="varchar" MaxLength="20" />
+          <Property Name="apellidos" Type="varchar" MaxLength="20" />
+          <Property Name="celular" Type="varchar" MaxLength="20" />
+          <Property Name="correo" Type="varchar" MaxLength="40" />
+          <Property Name="direccion" Type="varchar" MaxLength="60" />
+          <Property Name="fecha_nac" Type="date" />
+          <Property Name="usuario" Type="varchar" MaxLength="64" />
+          <Property Name="password" Type="varchar" MaxLength="64" />
+        </EntityType>
+        <EntityType Name="DETALLE_FACTURA">
+          <Key>
+            <PropertyRef Name="id_detalle" />
+          </Key>
+          <Property Name="id_detalle" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_cFactura" Type="int" Nullable="false" />
+          <Property Name="id_producto" Type="int" Nullable="false" />
+          <Property Name="cantidad" Type="int" />
+          <Property Name="subtotal" Type="decimal" Precision="6" Scale="2" />
+        </EntityType>
+        <EntityType Name="ESTADO_ENVIO">
+          <Key>
+            <PropertyRef Name="id_eEnvio" />
+          </Key>
+          <Property Name="id_eEnvio" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="ESTADO_PAGO">
+          <Key>
+            <PropertyRef Name="id_ePago" />
+          </Key>
+          <Property Name="id_ePago" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="LOG_IN">
+          <Key>
+            <PropertyRef Name="idlogin" />
+          </Key>
+          <Property Name="idlogin" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="usuario" Type="varchar" MaxLength="20" />
+          <Property Name="contrasena" Type="varchar" MaxLength="50" />
+          <Property Name="rol" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="PRODUCTO">
+          <Key>
+            <PropertyRef Name="id_producto" />
+          </Key>
+          <Property Name="id_producto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_pcategoria" Type="int" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="70" Nullable="false" />
+          <Property Name="stock" Type="int" Nullable="false" />
+          <Property Name="precio" Type="decimal" Precision="6" Scale="3" Nullable="false" />
+          <Property Name="imageUrl" Type="varchar" MaxLength="200" />
+        </EntityType>
+        <EntityType Name="PRODUCTO_CATEGORIA">
+          <Key>
+            <PropertyRef Name="id_categoria" />
+          </Key>
+          <Property Name="id_categoria" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <Association Name="FK_CAB_FACTURA_CLIENTE">
+          <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="1" />
+          <End Role="CAB_FACTURA" Type="Self.CAB_FACTURA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CLIENTE">
+              <PropertyRef Name="id_cliente" />
+            </Principal>
+            <Dependent Role="CAB_FACTURA">
+              <PropertyRef Name="id_cliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CAB_FACTURA_ESTADO_ENVIO">
+          <End Role="ESTADO_ENVIO" Type="Self.ESTADO_ENVIO" Multiplicity="1" />
+          <End Role="CAB_FACTURA" Type="Self.CAB_FACTURA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ESTADO_ENVIO">
+              <PropertyRef Name="id_eEnvio" />
+            </Principal>
+            <Dependent Role="CAB_FACTURA">
+              <PropertyRef Name="id_estado_envio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CAB_FACTURA_ESTADO_PAGO">
+          <End Role="ESTADO_PAGO" Type="Self.ESTADO_PAGO" Multiplicity="1" />
+          <End Role="CAB_FACTURA" Type="Self.CAB_FACTURA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ESTADO_PAGO">
+              <PropertyRef Name="id_ePago" />
+            </Principal>
+            <Dependent Role="CAB_FACTURA">
+              <PropertyRef Name="id_estado_pago" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DETALLE_FACTURA_CAB_FACTURA">
+          <End Role="CAB_FACTURA" Type="Self.CAB_FACTURA" Multiplicity="1" />
+          <End Role="DETALLE_FACTURA" Type="Self.DETALLE_FACTURA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CAB_FACTURA">
+              <PropertyRef Name="id_cfactura" />
+            </Principal>
+            <Dependent Role="DETALLE_FACTURA">
+              <PropertyRef Name="id_cFactura" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DETALLE_FACTURA_PRODUCTO">
+          <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="1" />
+          <End Role="DETALLE_FACTURA" Type="Self.DETALLE_FACTURA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PRODUCTO">
+              <PropertyRef Name="id_producto" />
+            </Principal>
+            <Dependent Role="DETALLE_FACTURA">
+              <PropertyRef Name="id_producto" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PRODUCTO_PRODUCTO_CATEGORIA">
+          <End Role="PRODUCTO_CATEGORIA" Type="Self.PRODUCTO_CATEGORIA" Multiplicity="1" />
+          <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PRODUCTO_CATEGORIA">
+              <PropertyRef Name="id_categoria" />
+            </Principal>
+            <Dependent Role="PRODUCTO">
+              <PropertyRef Name="id_pcategoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="rptCantidadProductos1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="rptMontoAgrupadoxCliente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="rptVentasCategoriaxMes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="fechaInicio" Type="date" Mode="In" />
+          <Parameter Name="fechaFin" Type="date" Mode="In" />
+        </Function>
+        <EntityContainer Name="DeliveryEntidadesStoreContainer">
+          <EntitySet Name="CAB_FACTURA" EntityType="Self.CAB_FACTURA" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CLIENTE" EntityType="Self.CLIENTE" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DETALLE_FACTURA" EntityType="Self.DETALLE_FACTURA" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ESTADO_ENVIO" EntityType="Self.ESTADO_ENVIO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ESTADO_PAGO" EntityType="Self.ESTADO_PAGO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LOG_IN" EntityType="Self.LOG_IN" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PRODUCTO" EntityType="Self.PRODUCTO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PRODUCTO_CATEGORIA" EntityType="Self.PRODUCTO_CATEGORIA" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_CAB_FACTURA_CLIENTE" Association="Self.FK_CAB_FACTURA_CLIENTE">
+            <End Role="CLIENTE" EntitySet="CLIENTE" />
+            <End Role="CAB_FACTURA" EntitySet="CAB_FACTURA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CAB_FACTURA_ESTADO_ENVIO" Association="Self.FK_CAB_FACTURA_ESTADO_ENVIO">
+            <End Role="ESTADO_ENVIO" EntitySet="ESTADO_ENVIO" />
+            <End Role="CAB_FACTURA" EntitySet="CAB_FACTURA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CAB_FACTURA_ESTADO_PAGO" Association="Self.FK_CAB_FACTURA_ESTADO_PAGO">
+            <End Role="ESTADO_PAGO" EntitySet="ESTADO_PAGO" />
+            <End Role="CAB_FACTURA" EntitySet="CAB_FACTURA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DETALLE_FACTURA_CAB_FACTURA" Association="Self.FK_DETALLE_FACTURA_CAB_FACTURA">
+            <End Role="CAB_FACTURA" EntitySet="CAB_FACTURA" />
+            <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DETALLE_FACTURA_PRODUCTO" Association="Self.FK_DETALLE_FACTURA_PRODUCTO">
+            <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+            <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PRODUCTO_PRODUCTO_CATEGORIA" Association="Self.FK_PRODUCTO_PRODUCTO_CATEGORIA">
+            <End Role="PRODUCTO_CATEGORIA" EntitySet="PRODUCTO_CATEGORIA" />
+            <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DeliveryEntidades" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CAB_FACTURA">
+          <Key>
+            <PropertyRef Name="id_cfactura" />
+          </Key>
+          <Property Name="id_cfactura" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="fecha" Type="DateTime" Precision="0" />
+          <Property Name="id_cliente" Type="Int32" Nullable="false" />
+          <Property Name="id_estado_pago" Type="Int32" Nullable="false" />
+          <Property Name="id_estado_envio" Type="Int32" Nullable="false" />
+          <Property Name="ruc_emisor" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CLIENTE" Relationship="Self.FK_CAB_FACTURA_CLIENTE" FromRole="CAB_FACTURA" ToRole="CLIENTE" />
+          <NavigationProperty Name="ESTADO_ENVIO" Relationship="Self.FK_CAB_FACTURA_ESTADO_ENVIO" FromRole="CAB_FACTURA" ToRole="ESTADO_ENVIO" />
+          <NavigationProperty Name="ESTADO_PAGO" Relationship="Self.FK_CAB_FACTURA_ESTADO_PAGO" FromRole="CAB_FACTURA" ToRole="ESTADO_PAGO" />
+          <NavigationProperty Name="DETALLE_FACTURA" Relationship="Self.FK_DETALLE_FACTURA_CAB_FACTURA" FromRole="CAB_FACTURA" ToRole="DETALLE_FACTURA" />
+        </EntityType>
+        <EntityType Name="CLIENTE">
+          <Key>
+            <PropertyRef Name="id_cliente" />
+          </Key>
+          <Property Name="id_cliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="documento" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="nombres" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="apellidos" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="celular" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="correo" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="direccion" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="fecha_nac" Type="DateTime" Precision="0" />
+          <Property Name="usuario" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="password" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CAB_FACTURA" Relationship="Self.FK_CAB_FACTURA_CLIENTE" FromRole="CLIENTE" ToRole="CAB_FACTURA" />
+        </EntityType>
+        <EntityType Name="DETALLE_FACTURA">
+          <Key>
+            <PropertyRef Name="id_detalle" />
+          </Key>
+          <Property Name="id_detalle" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_cFactura" Type="Int32" Nullable="false" />
+          <Property Name="id_producto" Type="Int32" Nullable="false" />
+          <Property Name="cantidad" Type="Int32" />
+          <Property Name="subtotal" Type="Decimal" Precision="6" Scale="2" />
+          <NavigationProperty Name="CAB_FACTURA" Relationship="Self.FK_DETALLE_FACTURA_CAB_FACTURA" FromRole="DETALLE_FACTURA" ToRole="CAB_FACTURA" />
+          <NavigationProperty Name="PRODUCTO" Relationship="Self.FK_DETALLE_FACTURA_PRODUCTO" FromRole="DETALLE_FACTURA" ToRole="PRODUCTO" />
+        </EntityType>
+        <EntityType Name="ESTADO_ENVIO">
+          <Key>
+            <PropertyRef Name="id_eEnvio" />
+          </Key>
+          <Property Name="id_eEnvio" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CAB_FACTURA" Relationship="Self.FK_CAB_FACTURA_ESTADO_ENVIO" FromRole="ESTADO_ENVIO" ToRole="CAB_FACTURA" />
+        </EntityType>
+        <EntityType Name="ESTADO_PAGO">
+          <Key>
+            <PropertyRef Name="id_ePago" />
+          </Key>
+          <Property Name="id_ePago" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CAB_FACTURA" Relationship="Self.FK_CAB_FACTURA_ESTADO_PAGO" FromRole="ESTADO_PAGO" ToRole="CAB_FACTURA" />
+        </EntityType>
+        <EntityType Name="PRODUCTO">
+          <Key>
+            <PropertyRef Name="id_producto" />
+          </Key>
+          <Property Name="id_producto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_pcategoria" Type="Int32" Nullable="false" />
+          <Property Name="nombre" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="stock" Type="Int32" Nullable="false" />
+          <Property Name="precio" Type="Decimal" Precision="6" Scale="3" Nullable="false" />
+          <Property Name="imageUrl" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="DETALLE_FACTURA" Relationship="Self.FK_DETALLE_FACTURA_PRODUCTO" FromRole="PRODUCTO" ToRole="DETALLE_FACTURA" />
+          <NavigationProperty Name="PRODUCTO_CATEGORIA" Relationship="Self.FK_PRODUCTO_PRODUCTO_CATEGORIA" FromRole="PRODUCTO" ToRole="PRODUCTO_CATEGORIA" />
+        </EntityType>
+        <EntityType Name="PRODUCTO_CATEGORIA">
+          <Key>
+            <PropertyRef Name="id_categoria" />
+          </Key>
+          <Property Name="id_categoria" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nombre" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="PRODUCTO" Relationship="Self.FK_PRODUCTO_PRODUCTO_CATEGORIA" FromRole="PRODUCTO_CATEGORIA" ToRole="PRODUCTO" />
+        </EntityType>
+        <Association Name="FK_CAB_FACTURA_CLIENTE">
+          <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="1" />
+          <End Role="CAB_FACTURA" Type="Self.CAB_FACTURA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CLIENTE">
+              <PropertyRef Name="id_cliente" />
+            </Principal>
+            <Dependent Role="CAB_FACTURA">
+              <PropertyRef Name="id_cliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CAB_FACTURA_ESTADO_ENVIO">
+          <End Role="ESTADO_ENVIO" Type="Self.ESTADO_ENVIO" Multiplicity="1" />
+          <End Role="CAB_FACTURA" Type="Self.CAB_FACTURA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ESTADO_ENVIO">
+              <PropertyRef Name="id_eEnvio" />
+            </Principal>
+            <Dependent Role="CAB_FACTURA">
+              <PropertyRef Name="id_estado_envio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CAB_FACTURA_ESTADO_PAGO">
+          <End Role="ESTADO_PAGO" Type="Self.ESTADO_PAGO" Multiplicity="1" />
+          <End Role="CAB_FACTURA" Type="Self.CAB_FACTURA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ESTADO_PAGO">
+              <PropertyRef Name="id_ePago" />
+            </Principal>
+            <Dependent Role="CAB_FACTURA">
+              <PropertyRef Name="id_estado_pago" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DETALLE_FACTURA_CAB_FACTURA">
+          <End Role="CAB_FACTURA" Type="Self.CAB_FACTURA" Multiplicity="1" />
+          <End Role="DETALLE_FACTURA" Type="Self.DETALLE_FACTURA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CAB_FACTURA">
+              <PropertyRef Name="id_cfactura" />
+            </Principal>
+            <Dependent Role="DETALLE_FACTURA">
+              <PropertyRef Name="id_cFactura" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DETALLE_FACTURA_PRODUCTO">
+          <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="1" />
+          <End Role="DETALLE_FACTURA" Type="Self.DETALLE_FACTURA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PRODUCTO">
+              <PropertyRef Name="id_producto" />
+            </Principal>
+            <Dependent Role="DETALLE_FACTURA">
+              <PropertyRef Name="id_producto" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PRODUCTO_PRODUCTO_CATEGORIA">
+          <End Role="PRODUCTO_CATEGORIA" Type="Self.PRODUCTO_CATEGORIA" Multiplicity="1" />
+          <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PRODUCTO_CATEGORIA">
+              <PropertyRef Name="id_categoria" />
+            </Principal>
+            <Dependent Role="PRODUCTO">
+              <PropertyRef Name="id_pcategoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DeliveryEntidades1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CAB_FACTURA" EntityType="Self.CAB_FACTURA" />
+          <EntitySet Name="CLIENTE" EntityType="Self.CLIENTE" />
+          <EntitySet Name="DETALLE_FACTURA" EntityType="Self.DETALLE_FACTURA" />
+          <EntitySet Name="ESTADO_ENVIO" EntityType="Self.ESTADO_ENVIO" />
+          <EntitySet Name="ESTADO_PAGO" EntityType="Self.ESTADO_PAGO" />
+          <EntitySet Name="PRODUCTO" EntityType="Self.PRODUCTO" />
+          <EntitySet Name="PRODUCTO_CATEGORIA" EntityType="Self.PRODUCTO_CATEGORIA" />
+          <AssociationSet Name="FK_CAB_FACTURA_CLIENTE" Association="Self.FK_CAB_FACTURA_CLIENTE">
+            <End Role="CLIENTE" EntitySet="CLIENTE" />
+            <End Role="CAB_FACTURA" EntitySet="CAB_FACTURA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CAB_FACTURA_ESTADO_ENVIO" Association="Self.FK_CAB_FACTURA_ESTADO_ENVIO">
+            <End Role="ESTADO_ENVIO" EntitySet="ESTADO_ENVIO" />
+            <End Role="CAB_FACTURA" EntitySet="CAB_FACTURA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CAB_FACTURA_ESTADO_PAGO" Association="Self.FK_CAB_FACTURA_ESTADO_PAGO">
+            <End Role="ESTADO_PAGO" EntitySet="ESTADO_PAGO" />
+            <End Role="CAB_FACTURA" EntitySet="CAB_FACTURA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DETALLE_FACTURA_CAB_FACTURA" Association="Self.FK_DETALLE_FACTURA_CAB_FACTURA">
+            <End Role="CAB_FACTURA" EntitySet="CAB_FACTURA" />
+            <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DETALLE_FACTURA_PRODUCTO" Association="Self.FK_DETALLE_FACTURA_PRODUCTO">
+            <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+            <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PRODUCTO_PRODUCTO_CATEGORIA" Association="Self.FK_PRODUCTO_PRODUCTO_CATEGORIA">
+            <End Role="PRODUCTO_CATEGORIA" EntitySet="PRODUCTO_CATEGORIA" />
+            <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+          </AssociationSet>
+          <EntitySet Name="LOG_IN" EntityType="DeliveryEntidades.LOG_IN" />
+          <FunctionImport Name="rptCantidadProductos" />
+          <FunctionImport Name="rptCantidadProductos1" />
+          <FunctionImport Name="rptCantidadProductos11" ReturnType="Collection(DeliveryEntidades.rptCantidadProductos11_Result)" />
+          <FunctionImport Name="rptMontoAgrupadoxCliente" ReturnType="Collection(DeliveryEntidades.rptMontoAgrupadoxCliente_Result)" />
+          <FunctionImport Name="rptVentasCategoriaxMes" ReturnType="Collection(DeliveryEntidades.rptVentasCategoriaxMes_Result)">
+            <Parameter Name="fechaInicio" Mode="In" Type="DateTime" />
+            <Parameter Name="fechaFin" Mode="In" Type="DateTime" />
+          </FunctionImport>
+        </EntityContainer>
+        <EntityType Name="LOG_IN">
+          <Key>
+            <PropertyRef Name="idlogin" />
+          </Key>
+          <Property Name="idlogin" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="usuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="contrasena" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="rol" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <ComplexType Name="rptCantidadProductos11_Result">
+          <Property Type="Int32" Name="Cantidad" Nullable="true" />
+          <Property Type="String" Name="Producto" Nullable="false" MaxLength="70" />
+        </ComplexType>
+        <ComplexType Name="rptMontoAgrupadoxCliente_Result">
+          <Property Type="String" Name="nombres" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="apellidos" Nullable="true" MaxLength="20" />
+          <Property Type="Decimal" Name="monto" Nullable="true" Precision="38" Scale="2" />
+        </ComplexType>
+        <ComplexType Name="rptVentasCategoriaxMes_Result">
+          <Property Type="Int32" Name="Cantidad" Nullable="true" />
+          <Property Type="String" Name="nombre" Nullable="true" MaxLength="30" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DeliveryEntidadesStoreContainer" CdmEntityContainer="DeliveryEntidades1">
+          <EntitySetMapping Name="CAB_FACTURA">
+            <EntityTypeMapping TypeName="DeliveryEntidades.CAB_FACTURA">
+              <MappingFragment StoreEntitySet="CAB_FACTURA">
+                <ScalarProperty Name="id_cfactura" ColumnName="id_cfactura" />
+                <ScalarProperty Name="fecha" ColumnName="fecha" />
+                <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+                <ScalarProperty Name="id_estado_pago" ColumnName="id_estado_pago" />
+                <ScalarProperty Name="id_estado_envio" ColumnName="id_estado_envio" />
+                <ScalarProperty Name="ruc_emisor" ColumnName="ruc_emisor" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CLIENTE">
+            <EntityTypeMapping TypeName="DeliveryEntidades.CLIENTE">
+              <MappingFragment StoreEntitySet="CLIENTE">
+                <ScalarProperty Name="id_cliente" ColumnName="id_cliente" />
+                <ScalarProperty Name="documento" ColumnName="documento" />
+                <ScalarProperty Name="nombres" ColumnName="nombres" />
+                <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+                <ScalarProperty Name="celular" ColumnName="celular" />
+                <ScalarProperty Name="correo" ColumnName="correo" />
+                <ScalarProperty Name="direccion" ColumnName="direccion" />
+                <ScalarProperty Name="fecha_nac" ColumnName="fecha_nac" />
+                <ScalarProperty Name="usuario" ColumnName="usuario" />
+                <ScalarProperty Name="password" ColumnName="password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DETALLE_FACTURA">
+            <EntityTypeMapping TypeName="DeliveryEntidades.DETALLE_FACTURA">
+              <MappingFragment StoreEntitySet="DETALLE_FACTURA">
+                <ScalarProperty Name="id_detalle" ColumnName="id_detalle" />
+                <ScalarProperty Name="id_cFactura" ColumnName="id_cFactura" />
+                <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+                <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+                <ScalarProperty Name="subtotal" ColumnName="subtotal" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ESTADO_ENVIO">
+            <EntityTypeMapping TypeName="DeliveryEntidades.ESTADO_ENVIO">
+              <MappingFragment StoreEntitySet="ESTADO_ENVIO">
+                <ScalarProperty Name="id_eEnvio" ColumnName="id_eEnvio" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ESTADO_PAGO">
+            <EntityTypeMapping TypeName="DeliveryEntidades.ESTADO_PAGO">
+              <MappingFragment StoreEntitySet="ESTADO_PAGO">
+                <ScalarProperty Name="id_ePago" ColumnName="id_ePago" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PRODUCTO">
+            <EntityTypeMapping TypeName="DeliveryEntidades.PRODUCTO">
+              <MappingFragment StoreEntitySet="PRODUCTO">
+                <ScalarProperty Name="id_producto" ColumnName="id_producto" />
+                <ScalarProperty Name="id_pcategoria" ColumnName="id_pcategoria" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="stock" ColumnName="stock" />
+                <ScalarProperty Name="precio" ColumnName="precio" />
+                <ScalarProperty Name="imageUrl" ColumnName="imageUrl" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PRODUCTO_CATEGORIA">
+            <EntityTypeMapping TypeName="DeliveryEntidades.PRODUCTO_CATEGORIA">
+              <MappingFragment StoreEntitySet="PRODUCTO_CATEGORIA">
+                <ScalarProperty Name="id_categoria" ColumnName="id_categoria" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LOG_IN">
+            <EntityTypeMapping TypeName="DeliveryEntidades.LOG_IN">
+              <MappingFragment StoreEntitySet="LOG_IN">
+                <ScalarProperty Name="rol" ColumnName="rol" />
+                <ScalarProperty Name="contrasena" ColumnName="contrasena" />
+                <ScalarProperty Name="usuario" ColumnName="usuario" />
+                <ScalarProperty Name="idlogin" ColumnName="idlogin" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="rptCantidadProductos11" FunctionName="DeliveryEntidades.Store.rptCantidadProductos1">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="DeliveryEntidades.rptCantidadProductos11_Result">
+                <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+                <ScalarProperty Name="Producto" ColumnName="Producto" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="rptMontoAgrupadoxCliente" FunctionName="DeliveryEntidades.Store.rptMontoAgrupadoxCliente">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="DeliveryEntidades.rptMontoAgrupadoxCliente_Result">
+                <ScalarProperty Name="nombres" ColumnName="nombres" />
+                <ScalarProperty Name="apellidos" ColumnName="apellidos" />
+                <ScalarProperty Name="monto" ColumnName="monto" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="rptVentasCategoriaxMes" FunctionName="DeliveryEntidades.Store.rptVentasCategoriaxMes">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="DeliveryEntidades.rptVentasCategoriaxMes_Result">
+                <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

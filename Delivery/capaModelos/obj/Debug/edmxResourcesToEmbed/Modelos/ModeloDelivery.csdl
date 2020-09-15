@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DeliveryEntidades" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CAB_FACTURA">
+    <Key>
+      <PropertyRef Name="id_cfactura" />
+    </Key>
+    <Property Name="id_cfactura" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fecha" Type="DateTime" Precision="0" />
+    <Property Name="id_cliente" Type="Int32" Nullable="false" />
+    <Property Name="id_estado_pago" Type="Int32" Nullable="false" />
+    <Property Name="id_estado_envio" Type="Int32" Nullable="false" />
+    <Property Name="ruc_emisor" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CLIENTE" Relationship="Self.FK_CAB_FACTURA_CLIENTE" FromRole="CAB_FACTURA" ToRole="CLIENTE" />
+    <NavigationProperty Name="ESTADO_ENVIO" Relationship="Self.FK_CAB_FACTURA_ESTADO_ENVIO" FromRole="CAB_FACTURA" ToRole="ESTADO_ENVIO" />
+    <NavigationProperty Name="ESTADO_PAGO" Relationship="Self.FK_CAB_FACTURA_ESTADO_PAGO" FromRole="CAB_FACTURA" ToRole="ESTADO_PAGO" />
+    <NavigationProperty Name="DETALLE_FACTURA" Relationship="Self.FK_DETALLE_FACTURA_CAB_FACTURA" FromRole="CAB_FACTURA" ToRole="DETALLE_FACTURA" />
+  </EntityType>
+  <EntityType Name="CLIENTE">
+    <Key>
+      <PropertyRef Name="id_cliente" />
+    </Key>
+    <Property Name="id_cliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="documento" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="nombres" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="apellidos" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="celular" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="correo" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="direccion" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="fecha_nac" Type="DateTime" Precision="0" />
+    <Property Name="usuario" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CAB_FACTURA" Relationship="Self.FK_CAB_FACTURA_CLIENTE" FromRole="CLIENTE" ToRole="CAB_FACTURA" />
+  </EntityType>
+  <EntityType Name="DETALLE_FACTURA">
+    <Key>
+      <PropertyRef Name="id_detalle" />
+    </Key>
+    <Property Name="id_detalle" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_cFactura" Type="Int32" Nullable="false" />
+    <Property Name="id_producto" Type="Int32" Nullable="false" />
+    <Property Name="cantidad" Type="Int32" />
+    <Property Name="subtotal" Type="Decimal" Precision="6" Scale="2" />
+    <NavigationProperty Name="CAB_FACTURA" Relationship="Self.FK_DETALLE_FACTURA_CAB_FACTURA" FromRole="DETALLE_FACTURA" ToRole="CAB_FACTURA" />
+    <NavigationProperty Name="PRODUCTO" Relationship="Self.FK_DETALLE_FACTURA_PRODUCTO" FromRole="DETALLE_FACTURA" ToRole="PRODUCTO" />
+  </EntityType>
+  <EntityType Name="ESTADO_ENVIO">
+    <Key>
+      <PropertyRef Name="id_eEnvio" />
+    </Key>
+    <Property Name="id_eEnvio" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CAB_FACTURA" Relationship="Self.FK_CAB_FACTURA_ESTADO_ENVIO" FromRole="ESTADO_ENVIO" ToRole="CAB_FACTURA" />
+  </EntityType>
+  <EntityType Name="ESTADO_PAGO">
+    <Key>
+      <PropertyRef Name="id_ePago" />
+    </Key>
+    <Property Name="id_ePago" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CAB_FACTURA" Relationship="Self.FK_CAB_FACTURA_ESTADO_PAGO" FromRole="ESTADO_PAGO" ToRole="CAB_FACTURA" />
+  </EntityType>
+  <EntityType Name="PRODUCTO">
+    <Key>
+      <PropertyRef Name="id_producto" />
+    </Key>
+    <Property Name="id_producto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_pcategoria" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="stock" Type="Int32" Nullable="false" />
+    <Property Name="precio" Type="Decimal" Precision="6" Scale="3" Nullable="false" />
+    <Property Name="imageUrl" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="DETALLE_FACTURA" Relationship="Self.FK_DETALLE_FACTURA_PRODUCTO" FromRole="PRODUCTO" ToRole="DETALLE_FACTURA" />
+    <NavigationProperty Name="PRODUCTO_CATEGORIA" Relationship="Self.FK_PRODUCTO_PRODUCTO_CATEGORIA" FromRole="PRODUCTO" ToRole="PRODUCTO_CATEGORIA" />
+  </EntityType>
+  <EntityType Name="PRODUCTO_CATEGORIA">
+    <Key>
+      <PropertyRef Name="id_categoria" />
+    </Key>
+    <Property Name="id_categoria" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PRODUCTO" Relationship="Self.FK_PRODUCTO_PRODUCTO_CATEGORIA" FromRole="PRODUCTO_CATEGORIA" ToRole="PRODUCTO" />
+  </EntityType>
+  <Association Name="FK_CAB_FACTURA_CLIENTE">
+    <End Role="CLIENTE" Type="Self.CLIENTE" Multiplicity="1" />
+    <End Role="CAB_FACTURA" Type="Self.CAB_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTE">
+        <PropertyRef Name="id_cliente" />
+      </Principal>
+      <Dependent Role="CAB_FACTURA">
+        <PropertyRef Name="id_cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CAB_FACTURA_ESTADO_ENVIO">
+    <End Role="ESTADO_ENVIO" Type="Self.ESTADO_ENVIO" Multiplicity="1" />
+    <End Role="CAB_FACTURA" Type="Self.CAB_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ESTADO_ENVIO">
+        <PropertyRef Name="id_eEnvio" />
+      </Principal>
+      <Dependent Role="CAB_FACTURA">
+        <PropertyRef Name="id_estado_envio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CAB_FACTURA_ESTADO_PAGO">
+    <End Role="ESTADO_PAGO" Type="Self.ESTADO_PAGO" Multiplicity="1" />
+    <End Role="CAB_FACTURA" Type="Self.CAB_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ESTADO_PAGO">
+        <PropertyRef Name="id_ePago" />
+      </Principal>
+      <Dependent Role="CAB_FACTURA">
+        <PropertyRef Name="id_estado_pago" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DETALLE_FACTURA_CAB_FACTURA">
+    <End Role="CAB_FACTURA" Type="Self.CAB_FACTURA" Multiplicity="1" />
+    <End Role="DETALLE_FACTURA" Type="Self.DETALLE_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CAB_FACTURA">
+        <PropertyRef Name="id_cfactura" />
+      </Principal>
+      <Dependent Role="DETALLE_FACTURA">
+        <PropertyRef Name="id_cFactura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DETALLE_FACTURA_PRODUCTO">
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="1" />
+    <End Role="DETALLE_FACTURA" Type="Self.DETALLE_FACTURA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTO">
+        <PropertyRef Name="id_producto" />
+      </Principal>
+      <Dependent Role="DETALLE_FACTURA">
+        <PropertyRef Name="id_producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PRODUCTO_PRODUCTO_CATEGORIA">
+    <End Role="PRODUCTO_CATEGORIA" Type="Self.PRODUCTO_CATEGORIA" Multiplicity="1" />
+    <End Role="PRODUCTO" Type="Self.PRODUCTO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTO_CATEGORIA">
+        <PropertyRef Name="id_categoria" />
+      </Principal>
+      <Dependent Role="PRODUCTO">
+        <PropertyRef Name="id_pcategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DeliveryEntidades1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CAB_FACTURA" EntityType="Self.CAB_FACTURA" />
+    <EntitySet Name="CLIENTE" EntityType="Self.CLIENTE" />
+    <EntitySet Name="DETALLE_FACTURA" EntityType="Self.DETALLE_FACTURA" />
+    <EntitySet Name="ESTADO_ENVIO" EntityType="Self.ESTADO_ENVIO" />
+    <EntitySet Name="ESTADO_PAGO" EntityType="Self.ESTADO_PAGO" />
+    <EntitySet Name="PRODUCTO" EntityType="Self.PRODUCTO" />
+    <EntitySet Name="PRODUCTO_CATEGORIA" EntityType="Self.PRODUCTO_CATEGORIA" />
+    <AssociationSet Name="FK_CAB_FACTURA_CLIENTE" Association="Self.FK_CAB_FACTURA_CLIENTE">
+      <End Role="CLIENTE" EntitySet="CLIENTE" />
+      <End Role="CAB_FACTURA" EntitySet="CAB_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CAB_FACTURA_ESTADO_ENVIO" Association="Self.FK_CAB_FACTURA_ESTADO_ENVIO">
+      <End Role="ESTADO_ENVIO" EntitySet="ESTADO_ENVIO" />
+      <End Role="CAB_FACTURA" EntitySet="CAB_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CAB_FACTURA_ESTADO_PAGO" Association="Self.FK_CAB_FACTURA_ESTADO_PAGO">
+      <End Role="ESTADO_PAGO" EntitySet="ESTADO_PAGO" />
+      <End Role="CAB_FACTURA" EntitySet="CAB_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DETALLE_FACTURA_CAB_FACTURA" Association="Self.FK_DETALLE_FACTURA_CAB_FACTURA">
+      <End Role="CAB_FACTURA" EntitySet="CAB_FACTURA" />
+      <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DETALLE_FACTURA_PRODUCTO" Association="Self.FK_DETALLE_FACTURA_PRODUCTO">
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+      <End Role="DETALLE_FACTURA" EntitySet="DETALLE_FACTURA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PRODUCTO_PRODUCTO_CATEGORIA" Association="Self.FK_PRODUCTO_PRODUCTO_CATEGORIA">
+      <End Role="PRODUCTO_CATEGORIA" EntitySet="PRODUCTO_CATEGORIA" />
+      <End Role="PRODUCTO" EntitySet="PRODUCTO" />
+    </AssociationSet>
+    <EntitySet Name="LOG_IN" EntityType="DeliveryEntidades.LOG_IN" />
+    <FunctionImport Name="rptCantidadProductos" />
+    <FunctionImport Name="rptCantidadProductos1" />
+    <FunctionImport Name="rptCantidadProductos11" ReturnType="Collection(DeliveryEntidades.rptCantidadProductos11_Result)" />
+    <FunctionImport Name="rptMontoAgrupadoxCliente" ReturnType="Collection(DeliveryEntidades.rptMontoAgrupadoxCliente_Result)" />
+    <FunctionImport Name="rptVentasCategoriaxMes" ReturnType="Collection(DeliveryEntidades.rptVentasCategoriaxMes_Result)">
+      <Parameter Name="fechaInicio" Mode="In" Type="DateTime" />
+      <Parameter Name="fechaFin" Mode="In" Type="DateTime" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="LOG_IN">
+    <Key>
+      <PropertyRef Name="idlogin" />
+    </Key>
+    <Property Name="idlogin" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="usuario" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="contrasena" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="rol" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="rptCantidadProductos11_Result">
+    <Property Type="Int32" Name="Cantidad" Nullable="true" />
+    <Property Type="String" Name="Producto" Nullable="false" MaxLength="70" />
+  </ComplexType>
+  <ComplexType Name="rptMontoAgrupadoxCliente_Result">
+    <Property Type="String" Name="nombres" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="apellidos" Nullable="true" MaxLength="20" />
+    <Property Type="Decimal" Name="monto" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="rptVentasCategoriaxMes_Result">
+    <Property Type="Int32" Name="Cantidad" Nullable="true" />
+    <Property Type="String" Name="nombre" Nullable="true" MaxLength="30" />
+  </ComplexType>
+</Schema>

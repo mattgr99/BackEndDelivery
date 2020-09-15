@@ -1,0 +1,69 @@
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\capaModelos.dll.config
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\capaModelos.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\capaModelos.pdb
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\EntityFramework.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\EntityFramework.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\obj\Debug\capaModelos.csprojAssemblyReference.cache
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\obj\Debug\capaModelos.csproj.CoreCompileInputs.cache
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\obj\Debug\capaModelos.csproj.CopyComplete
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\obj\Debug\capaModelos.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\obj\Debug\capaModelos.pdb
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Web.Cors.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Web.Http.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Web.Http.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Web.Http.Cors.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\es\System.Net.Http.Formatting.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\es\System.Web.Http.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\capaModelos.dll.config
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\capaModelos.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\capaModelos.pdb
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\EntityFramework.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Web.Cors.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Web.Http.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\EntityFramework.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Web.Http.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Web.Http.Cors.xml
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\es\System.Net.Http.Formatting.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\es\System.Web.Http.resources.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\obj\Debug\capaModelos.csprojAssemblyReference.cache
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\obj\Debug\capaModelos.csproj.CoreCompileInputs.cache
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\obj\Debug\capaModelos.csproj.CopyComplete
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\obj\Debug\capaModelos.dll
+C:\Users\dyane\Desktop\ISOW\ISOW_6\Certificacion_1\U2\proyectoDelivery\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\obj\Debug\capaModelos.pdb
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\capaModelos.dll.config
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\capaModelos.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\capaModelos.pdb
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\EntityFramework.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Web.Cors.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Web.Http.Cors.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Web.Http.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\EntityFramework.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Web.Http.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\System.Web.Http.Cors.xml
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\es\System.Net.Http.Formatting.resources.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\bin\Debug\es\System.Web.Http.resources.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\obj\Debug\capaModelos.csproj.CoreCompileInputs.cache
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\obj\Debug\capaModelos.csproj.CopyComplete
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\obj\Debug\capaModelos.dll
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\obj\Debug\capaModelos.pdb
+C:\Users\matgr\OneDrive\Documentos\Certificacion I\BackEnd Proyecto Final\Back-MVC-API\BackEnd\BackASP\Delivery\capaModelos\obj\Debug\capaModelos.csprojAssemblyReference.cache
